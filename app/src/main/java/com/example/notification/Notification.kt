@@ -5,12 +5,16 @@ import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.widget.Toast
 import androidx.core.app.NotificationCompat
 
 const val notificationID = 1
+const val notificationID2 = 2
 const val channelID = "channel1"
+const val channelID2 = "channel2"
 const val titleExtra = "titleExtra"
 const val messageExtra = "messageExtra"
+const val ActionExtra = "ActionExtra"
 
 class Notification : BroadcastReceiver() {
 
